@@ -8,6 +8,8 @@ const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
 const cors         = require('cors');
 
+
+
 mongoose.connect('mongodb://localhost/journal-development');
 
 const app = express();

@@ -1,0 +1,9 @@
+
+<div class="container">
+<div class="item" *ngFor ="let j of journal">
+<p>{{j.title}}</p>
+<p>{{j.date}}</p>
+<a [routerLink] = "['/journal', j._id]">Arriesgate</a>
+</div>
+
+</div>
